@@ -1,0 +1,156 @@
+/* created by zyh on 2018-9-10
+    此样式文件用于定义公共样式
+    暂定规则： 功能_样式_...... 类型
+*/
+@import "baseCommonForm.css";
+@import "./elUiReWrite.css";
+
+/*隐藏IE input 清除按钮  查看密码按钮*/
+::-ms-clear, ::-ms-reveal{display: none;}
+
+/*修改placeholder*/
+input::-webkit-input-placeholder{
+    color: #bbb;
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    color: #bbb;
+}
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    color: #bbb;
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
+    color: #bbb;
+}
+
+.position_r{
+    position: relative;
+}
+
+.position_a{
+    position: absolute;
+}
+
+.float_l{
+    float: left
+}
+
+.float_r{
+    float: right;
+}
+
+.text_center{
+    text-align: center;
+}
+
+.border_box{
+    box-sizing: border-box;
+}
+
+.cursor_pointer{
+    cursor: pointer;
+}
+
+.text_ellipse{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.inline_block{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*常用布局*/
+.margin_left_10{
+    margin-left: 10px;
+}
+
+.margin_left_20{
+    margin-left: 20px;
+}
+
+.margin_left_30{
+    margin-left: 30px;
+}
+
+.margin_left_40{
+    margin-left: 40px;
+}
+
+.margin_right_10{
+    margin-right: 10px;
+}
+
+.margin_right_20{
+    margin-right: 20px;
+}
+
+.margin_right_30{
+    margin-right: 30px;
+}
+
+.margin_right_40{
+    margin-right: 40px;
+}
+
+.padding_left_10{
+    padding-left: 10px;
+}
+
+.padding_left_20{
+    padding-left: 20px;
+}
+
+.padding_left_30{
+    padding-left: 30px;
+}
+
+.padding_left_40{
+    padding-left: 40px;
+}
+
+.padding_right_10{
+    padding-right: 10px;
+}
+
+.padding_right_20{
+    padding-right: 20px;
+}
+
+.padding_right_30{
+    padding-right: 30px;
+}
+
+.padding_right_40{
+    padding-right: 40px;
+}
+
+
+/*directive class  指令使用类*/
+.directive-tip{
+    position: absolute;
+    color: red;
+    font-size: 12px;
+    line-height: 1.2;
+    left: 0;
+    bottom: -16px;
+    display: none;
+}
+.directive-red-text{
+    color: red
+}
+.directive-red-border{
+    border:1px solid red;
+}
+.directive-position-a{
+    position: absolute;
+}
+
+.directive-position-r{
+    position: relative;
+}
+.directive-overflow-visible{
+    overflow: visible;
+}
+
